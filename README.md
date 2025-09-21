@@ -3,6 +3,13 @@ Google Script for converting markdown and CSV files from Notion export files to 
 
 Using this script you can convert your notion export markdown and CSV files to Google Docs and Sheets.
 
+The script will:
+- Convert all .md and .csv files.
+- Rename all files removing the hash key in the name
+- Rename all directories, removing the hash key in the name
+- Remove the orginal .mv and .csv files
+- Run recursively, the MY_FOLDER_ID will be the root.
+
 1. Download your exported documents from Notion, in markdown and CSV format.
 2. Goto script.google.com and paste the code.
 3. You will need to enable the Drive API service in the left menu.
